@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
- <body>
+
+<body>
     <?php 
     $Name = "Shaikh Mohammad Saad";
-    echo "Hello Welcome to $Name's Third programming Language Webpage, Yeah PHP!!!! <br/> ";
-    echo " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - <br/> ";
-    print ("Saad Hello <br/>");
-    print ('saaad' .'saad')
+    echo "Hello Welcome to $Name's Third programming Language Webpage, Yeah PHP!!!! <br/><br/> ";
+    echo " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - <br/><br/> ";
+    print ("Saad Hello <br/><br/>");
+    print ('saaad' .'saad');
     $Username = "Saad";
     $password = 12345 ; 
 
@@ -22,11 +24,18 @@
     else{
         Print("Please Try Again");
     };
-    else{
-        Print("Please Try Again");
+for($i=0; $i<100;$i++){
+    if($i == 42)
+    // {break;
+    // };
+    // It will print numbers till 41 
+    {continue;
     };
-   
+    // It will print numbers from 1 to 99 except 42
 
+    echo "$i <br/>";
+};
     ?>
-</body> 
+</body>
+
 </html>
