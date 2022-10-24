@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+ <body>
     <?php 
     $Name = "Shaikh Mohammad Saad";
     echo "Hello Welcome to $Name's Third programming Language Webpage, Yeah PHP!!!! <br/> ";
@@ -22,7 +22,19 @@
     else{
         Print("Please Try Again");
     };
+    else{
+        Print("Please Try Again");
+    };
+    else{
+        Print("Please Try Again");
+    };
+    else{
+        Print("Please Try Again");
+    };
+    else{
+        Print("Please Try Again");
+    };
 
     ?>
-</body>
+</body> 
 </html>
