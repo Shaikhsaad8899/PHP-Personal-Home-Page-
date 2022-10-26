@@ -78,7 +78,7 @@
 // echo "Your Birthday is on the " . jddayofweek($bday, 1);
 // This gives the day of your birth
 
-
+            
 // $name = "saad.com";
 // $ipAddr = gethostbyname($name);
 // echo "this is the IP address of $name: $ipAddr ";
