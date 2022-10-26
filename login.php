@@ -10,9 +10,9 @@
 
 <body>
     <form action="processlogin.php" id="login" method="post" accept-charset="UTF-8">
-        <label for="username">Username</label>
+        <label for="username"></label>
         <input type="text" name="username" id="username" maxlength="50">
-        <label for="password">Password</label>
+        <label for="password"></label>
         <input type="password" name="password" id="password" maxlength="50">
         <input type="submit" name="submit" value="submit">
         <?php
